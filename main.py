@@ -18,7 +18,9 @@ try:
 except requests.exceptions.RequestException as e:
     print(f"Error fetching URL: {e}")
 
-def simplify_job(j):
+def simplify_job(j) -> dict[str, str]:
+    """Returns a simplified job object from an API job.
+    """
     return {
         "url": j["absolute_url"],
         "location": j["location"]["name"],
@@ -77,3 +79,6 @@ if "iterable_item_added" in diff:
     print(new_jobs_posted)
 else:
     print("no new jobs posted.")
+
+# TODO: save out new manifest.json
+# TODO: add timestamp to manifest
