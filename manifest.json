@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "category": "Client Services",
+    "openings": [
+      {
+        "title": "Customer Support Engineer",
+        "location": "Denver, CO",
+        "link": "https://www.fastly.com/about/jobs/apply/?gh_jid=6422317"
+      }, {
+        "title": "Embedded Solutions Engineer",
+        "location": "New York City, NY",
+        "link": "https://www.fastly.com/about/jobs/apply/?gh_jid=6423219"
+      }
+    ]
+  }, {
+    "category": "Engineering",
+    "openings": [
+      {
+        "title": "Distinguished Engineer",
+        "location": "San Francisco, CA",
+        "link": "https://www.fastly.com/about/jobs/apply/?gh_jid=6368122"
+      }
+    ]
+  }
+]
