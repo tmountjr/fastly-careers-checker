@@ -33,27 +33,28 @@ postings = {}
 for department in new_data["departments"]:
     dept_id = department["id"]
     parent_id = department["parent_id"]
+    jobs_to_add = [ simplify_job(x) for x in department["jobs"] ]
 
     if parent_id is None:
         if dept_id in postings:
             # stub, overwrite name and merge jobs
             postings[dept_id]["name"] = department["name"]
-            postings[dept_id]["jobs"] += [ simplify_job(x) for x in department["jobs"] ]
+            postings[dept_id]["jobs"] += jobs_to_add
         else:
             # new entry
             postings[dept_id] = {
                 "name": department["name"],
-                "jobs": [ simplify_job(x) for x in department["jobs"] ]
+                "jobs": jobs_to_add
             }
     else:
         if parent_id in postings:
             # update existing parent department jobs
-            postings[parent_id]["jobs"] += [ simplify_job(x) for x in department["jobs"] ]
+            postings[parent_id]["jobs"] += jobs_to_add
         else:
             # stub out new entry for parent department
             postings[parent_id] = {
                 "name": "PENDING",
-                "jobs": [ simplify_job(x) for x in department["jobs"] ]
+                "jobs": jobs_to_add
             }
 
 diff = DeepDiff(
@@ -72,13 +73,15 @@ if "iterable_item_added" in diff:
         index = int(index)
         job = postings[dept_id][key][index]
         dept_name = postings[dept_id]["name"]
+        title = job["title"]
+        location = job["location"]
         new_jobs_posted.append(
-            f'New job posted in "{dept_name}": {job["title"]} based in {job["location"]}.'
+            f'New job posted in "{dept_name}": {title} based in {location}.'
         )
 
     print(new_jobs_posted)
 else:
-    print("no new jobs posted.")
+    print("No new jobs posted.")
 
-# TODO: save out new manifest.json
-# TODO: add timestamp to manifest
+with open("./manifest.json", "w+", encoding="utf-8") as manifest_handle:
+    manifest_handle.write(json.dumps(postings, indent=2))

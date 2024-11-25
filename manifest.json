@@ -1,25 +1,404 @@
-[
-  {
-    "category": "Client Services",
-    "openings": [
+{
+  "611": {
+    "name": "Finance",
+    "jobs": [
       {
-        "title": "Customer Support Engineer",
-        "location": "Denver, CO",
-        "link": "https://www.fastly.com/about/jobs/apply/?gh_jid=6422317"
-      }, {
-        "title": "Embedded Solutions Engineer",
-        "location": "New York City, NY",
-        "link": "https://www.fastly.com/about/jobs/apply/?gh_jid=6423219"
-      }
-    ]
-  }, {
-    "category": "Engineering",
-    "openings": [
-      {
-        "title": "Distinguished Engineer",
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6359962",
         "location": "San Francisco, CA",
-        "link": "https://www.fastly.com/about/jobs/apply/?gh_jid=6368122"
+        "title": "Manager, Accounting"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6357477",
+        "location": "San Francisco, CA",
+        "title": "Senior Billing Specialist"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6356880",
+        "location": "San Francisco, CA",
+        "title": "Senior Manager, Billing Operations"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6357485",
+        "location": "Denver, CO",
+        "title": "Senior Manager, Billing Operations"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6295634",
+        "location": "San Francisco, CA",
+        "title": "Administrative Business Partner to the CFO (San Francisco, CA)"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6108231",
+        "location": "New York City, NY",
+        "title": "Director, Deal Strategy"
       }
     ]
+  },
+  "812": {
+    "name": "Client Services",
+    "jobs": [
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6422618",
+        "location": "San Francisco, CA",
+        "title": "Embedded Solutions Engineer"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6423216",
+        "location": "Denver, CO",
+        "title": "Embedded Solutions Engineer"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6423219",
+        "location": "New York City, NY",
+        "title": "Embedded Solutions Engineer"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6344643",
+        "location": "London, United Kingdom",
+        "title": "Senior Security Support Analyst"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6357483",
+        "location": "Denver, CO",
+        "title": "Web Application Security Analyst"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6422317",
+        "location": "Denver, CO",
+        "title": "Customer Support Engineer"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6422426",
+        "location": "New York City, NY",
+        "title": "Customer Support Engineer"
+      }
+    ]
+  },
+  "56958": {
+    "name": "People",
+    "jobs": []
+  },
+  "69271": {
+    "name": "Trust - DO NOT USE",
+    "jobs": []
+  },
+  "88752": {
+    "name": "Business Development",
+    "jobs": []
+  },
+  "87090": {
+    "name": "IT / Business Systems",
+    "jobs": [
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6414647",
+        "location": "Denver, CO",
+        "title": "Senior SaaS Operations Engineer"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6414649",
+        "location": "New York City, NY",
+        "title": "Senior SaaS Operations Engineer"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6413776",
+        "location": "San Francisco, CA",
+        "title": "Senior SaaS Operations Engineer"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6414618",
+        "location": "New York City, NY",
+        "title": "Senior Systems Engineer, Identity and Access Management"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6414458",
+        "location": "San Francisco, CA",
+        "title": "Senior Systems Engineer, Identity and Access Management"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6414617",
+        "location": "Denver, CO",
+        "title": "Senior Systems Engineer, Identity and Access Management"
+      }
+    ]
+  },
+  "605": {
+    "name": "Engineering",
+    "jobs": [
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6371999",
+        "location": "Denver, CO",
+        "title": "Senior Engineer - Developer Experience & Tools"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6372053",
+        "location": "New York City, NY",
+        "title": "Senior Engineer - Developer Experience & Tools"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6371683",
+        "location": "San Francisco, CA",
+        "title": "Senior Engineer - Developer Experience & Tools"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6019035",
+        "location": "San Francisco, CA",
+        "title": "Senior Engineering Manager - WebAssembly Team (Remote)"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6019234",
+        "location": "New York City, NY",
+        "title": "Senior Engineering Manager - WebAssembly Team (Remote)"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6123764",
+        "location": "New York City, NY",
+        "title": "Senior Software Engineer, Compute Platform (REMOTE)"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6385558",
+        "location": "Denver, CO",
+        "title": "Staff Engineer -  WebAssembly (Remote)"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6385554",
+        "location": "New York City, NY",
+        "title": "Staff Engineer -  WebAssembly (Remote)"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6382838",
+        "location": "San Francisco, CA",
+        "title": "Staff Engineer -  WebAssembly (Remote)"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6305174",
+        "location": "New York City, NY",
+        "title": "Staff Software Engineer - Compute SDKs  (Remote)"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6303648",
+        "location": "San Francisco, CA",
+        "title": "Staff Software Engineer - Compute SDKs (Remote)"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6393936",
+        "location": "San Francisco, CA",
+        "title": "Senior Infrastructure & Site Reliability Engineer - API Services"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6284017",
+        "location": "Denver, CO",
+        "title": "Senior Software Engineer - Data Services (Remote)"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6323612",
+        "location": "San Francisco, CA",
+        "title": "Staff Software Engineer, Edge Linux"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6324878",
+        "location": "New York City, NY",
+        "title": "Staff Software Engineer, Edge Linux"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6324880",
+        "location": "Denver, CO",
+        "title": "Staff Software Engineer, Edge Linux"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6367421",
+        "location": "New York City, NY",
+        "title": "Vice President of Engineering, Security Products"
+      }
+    ]
+  },
+  "65798": {
+    "name": "Sales",
+    "jobs": [
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6313466",
+        "location": "Atlanta, GA",
+        "title": "Commercial Account Executive - South East"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6418859",
+        "location": "Austin, TX",
+        "title": "Senior Account Executive"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6395541",
+        "location": "Sydney, Australia",
+        "title": "Senior Enterprise Account Executive, ANZ"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6158855",
+        "location": "Barcelona, Spain",
+        "title": "Senior Enterprise Account Executive - Spain & Portugal"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6123203",
+        "location": "Madrid, Spain",
+        "title": "Senior Enterprise Account Executive - Spain & Portugal"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6404969",
+        "location": "Sydney, Australia",
+        "title": "VP Sales, APJ"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6404964",
+        "location": "Singapore, Singapore",
+        "title": "VP Sales, APJ"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6404972",
+        "location": "Melbourne, Australia",
+        "title": "VP Sales, APJ"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6296718",
+        "location": "Denver, CO",
+        "title": "Inside Sales Account Executive"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6278507",
+        "location": "Tokyo, Japan",
+        "title": "Senior Business Development Representative - Japan (Hybrid)"
+      }
+    ]
+  },
+  "88841": {
+    "name": "Information Security",
+    "jobs": [
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6262995",
+        "location": "New York City, NY",
+        "title": "Technology Compliance Lead"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6262448",
+        "location": "San Francisco, CA",
+        "title": "Technology Compliance Lead"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6262994",
+        "location": "Denver, CO",
+        "title": "Technology Compliance Lead"
+      }
+    ]
+  },
+  "60720": {
+    "name": "Corporate Development",
+    "jobs": []
+  },
+  "609": {
+    "name": "Marketing",
+    "jobs": [
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6383580",
+        "location": "San Francisco, CA",
+        "title": "Content Marketing Manager"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6379701",
+        "location": "New York City, NY",
+        "title": "Field Marketing Manager - North America East"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6399140",
+        "location": "San Francisco, CA",
+        "title": "Marketing Analytics Analyst"
+      }
+    ]
+  },
+  "88751": {
+    "name": "Developer Experience",
+    "jobs": []
+  },
+  "150649": {
+    "name": "Global Network Infrastructure",
+    "jobs": [
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6321620",
+        "location": "San Francisco, CA",
+        "title": "Sr. Technical Program Manager, Network Infrastructure"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6330732",
+        "location": "Denver, CO",
+        "title": "Sr. Technical Program Manager, Network Infrastructure"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6330729",
+        "location": "New York City, NY",
+        "title": "Sr. Technical Program Manager, Network Infrastructure"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6321614",
+        "location": "San Francisco, CA",
+        "title": "Staff Network Infrastructure Planner/Designer"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6335776",
+        "location": "New York City, NY",
+        "title": "Staff Network Infrastructure Planner/Designer"
+      },
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6335782",
+        "location": "Denver, CO",
+        "title": "Staff Network Infrastructure Planner/Designer"
+      }
+    ]
+  },
+  "44449": {
+    "name": "Incubator",
+    "jobs": []
+  },
+  "88840": {
+    "name": "Strategy and Operations Exec",
+    "jobs": []
+  },
+  "1192": {
+    "name": "Law",
+    "jobs": []
+  },
+  "65079": {
+    "name": "Legacy (Archive)",
+    "jobs": []
+  },
+  "85894": {
+    "name": "OCA",
+    "jobs": []
+  },
+  "69848": {
+    "name": "Office of CEO",
+    "jobs": []
+  },
+  "56957": {
+    "name": "Product",
+    "jobs": [
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6390765",
+        "location": "San Francisco, CA",
+        "title": "Administrative Business Partner for CPO"
+      }
+    ]
+  },
+  "25308": {
+    "name": "Program Management",
+    "jobs": [
+      {
+        "url": "https://www.fastly.com/about/jobs/apply/?gh_jid=6343618",
+        "location": "San Francisco, CA",
+        "title": "Program Manager"
+      }
+    ]
+  },
+  "41230": {
+    "name": "Templates",
+    "jobs": []
+  },
+  "0": {
+    "name": "No Department",
+    "jobs": []
   }
-]
+}
