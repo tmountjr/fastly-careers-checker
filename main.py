@@ -1,14 +1,20 @@
 import re
 import json
+from os import path
+
 import requests
 from deepdiff import DeepDiff
 
+MANIFEST_PATH = path.join(
+    path.dirname(path.realpath(__file__)),
+    "manifest.json"
+)
 CAREERS_URL = "https://api.greenhouse.io/v1/boards/fastly/embed/departments"
 
 session = requests.session()
 
 # Load manifest.json.
-with open("./manifest.json", "r", encoding="utf-8") as manifest_handle:
+with open(MANIFEST_PATH, "r", encoding="utf-8") as manifest_handle:
     manifest = json.loads(manifest_handle.read())
 
 try:
@@ -83,5 +89,5 @@ if "iterable_item_added" in diff:
 else:
     print("No new jobs posted.")
 
-with open("./manifest.json", "w+", encoding="utf-8") as manifest_handle:
+with open(MANIFEST_PATH, "w+", encoding="utf-8") as manifest_handle:
     manifest_handle.write(json.dumps(postings, indent=2))
